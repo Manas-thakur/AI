@@ -41,3 +41,12 @@ node - a data structure that keeps track of
 - an action (action applied to parent to get node)
 - a path cost (from intitial state to node)
 
+approach - 
+
+start with the frontier that contains the intitial state
+Repeat:
+
+- if the frontier is empty, then no solution.
+- Remove a node from the frontier.
+- if node contains goal state, return the solution.
+- Expand node, add resulting nodes to the frontier.
