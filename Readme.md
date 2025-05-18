@@ -18,10 +18,26 @@ goal test - way to determine whether a given state is a goal state
 
 path cost - numerical cost associated with a given path
 
-## Search Problem
+## Search Problems
 
 - intial state
 - actions
 - transition model
 - goal path
 - path cost function
+
+## solution
+
+A sequence of actions that lead from the initial state to a goal state
+
+### optimal solution
+
+a solution that has the lowest path cost among all solutions
+
+node - a data structure that keeps track of
+
+- a state
+- a parent (node that generated this node)
+- an action (action applied to parent to get node)
+- a path cost (from intitial state to node)
+
