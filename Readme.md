@@ -11,3 +11,5 @@ transition model - a description of what state results from performing any appli
 Results(s,a) returns the state resulting from performing action a in state s
 
 state space - the set of all states reachable from the initial state by any sequence of actions
+
+## search problems
